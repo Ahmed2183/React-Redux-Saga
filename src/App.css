@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Header Styling */
+
+.header {
+  background-color: #282c34;
+  height: 83px;
+}
+
+.cart-div {
+float: right;
+margin: 25px;
+position: relative;
+}
+
+.cart-div img {
+width: 30px;
+}
+
+.cart-div span {
+  position: absolute;
+  z-index: 5;
+  background-color: chocolate;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  color: white;
+  top: -5px;
+  right: 0;
+}
+/* Header Styling */
