@@ -66,4 +66,21 @@ width: 30px;
   top: -5px;
   right: 0;
 }
-/* Header Styling */
+
+/* End Header Styling */
+
+/* Product Styling */
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  border: 1px solid wheat;
+  margin: 20px;
+  padding: 20px;
+  height: fit-content;
+}
+
+/* End Product Styling */
