@@ -16,8 +16,10 @@ export const cartData = (data = [], action) => { //data = [] is initial value
 
         case REMOVE_FROM_CART:
             console.warn("REMOVE_FROM_CART CONDITION", action);
-            data.length = data.length ? data.length - 1 : [];
-            return [...data];
+            // data.length = data.length ? data.length - 1 : [];
+            // return [...data];
+            const remainingItems = data.filter((item) => item.id !== action.data) //-->Filter for removing items from cart
+            return [...remainingItems];
 
         case EMPTY_CART:
             console.warn("EMPTY_CART CONDITION", action);
