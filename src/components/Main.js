@@ -5,7 +5,7 @@ import { productList } from '../redux/productAction';
 function Main() {
 
   const result = useSelector((state) => state.productData);
-  console.log("Data in Main Component",result);
+  console.log("Data in Main Component From Saga",result);
 
   // const result = useSelector((state) => state);
   // console.log("Get All Reducers Data",result);
