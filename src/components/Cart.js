@@ -11,7 +11,7 @@ function Cart() {
     // console.log(amount);
 
     return (
-        <div className='cart'>
+        <div>
             <Link to='/'>
                 <h1>Go To Product List</h1>
             </Link>
