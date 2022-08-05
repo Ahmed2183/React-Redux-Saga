@@ -6,8 +6,7 @@ export const productData = (data = [], action) => { //data = [] is initial value
        
         case SET_PRODUCT_LIST:
             console.warn("PRODUCT_LIST CONDITION", action);
-            return [...action.data];  // ... means eik array mai kafi array hai is lia directly extract kia
-
+            return [...action.data];  // ... means in one aray we have multiples array that's why we directly extract that
         default:  //When No Case Matched
             return data;
     }
