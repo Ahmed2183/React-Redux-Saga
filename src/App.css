@@ -134,3 +134,21 @@
 }
 
 /* End Cart Styling */
+
+
+/* Search Styling */
+
+.search {
+  float: left;
+  padding: 25px;
+  width: 50%;
+}
+
+.search input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+  padding-left: 10px;
+}
+
+/* End Search Styling */
