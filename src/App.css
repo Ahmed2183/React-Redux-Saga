@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -45,14 +46,20 @@
   height: 83px;
 }
 
+.logo {
+  float: left;
+  margin: 0;
+  padding: 20px;
+}
+
 .cart-div {
-float: right;
-margin: 25px;
-position: relative;
+  float: right;
+  margin: 25px;
+  position: relative;
 }
 
 .cart-div img {
-width: 30px;
+  width: 30px;
 }
 
 .cart-div span {
@@ -84,3 +91,13 @@ width: 30px;
 }
 
 /* End Product Styling */
+
+/* End Cart Styling */
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* End Cart Styling */
